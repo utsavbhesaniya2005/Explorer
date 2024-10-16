@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --gw: 14px;   
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+ul,ol{
+  padding: 0;
+  list-style: none;
+}
+.container{
+  max-width: 1320px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gw);
+  padding-right: var(--gw);
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc( -1 * var(--gw));
+  margin-right: calc( -1 * var(--gw));
+}
+.col-1{
+  width: 8.33%;
+}
+.col-2{
+  width: 16.66%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33%;
+}
+.col-5{
+  width: 41.66%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.33%;
+}
+.col-8{
+  width: 66.66%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.33%;
+}
+.col-11{
+  width: 91.66%;
+}
+.col-12{
+  width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+  padding-left: var(--gw);
+  padding-right: var(--gw);
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.btn{
+  display: inline-block;
+  padding: 0 43px;
+  background-color: #5798b0;
+  line-height: 52px;
+  font-size: 24px;
+  color: white;
+  border-radius: 26px;
+  font-weight: 700;
+  border: 2px solid white;
+  transition: all 0.2s linear;
+}
+.btn:hover{
+  background-color: white;
+  color: #5798b0;
+}
+h1{
+  font-size: 42px;
+  margin: 20px 100px;
+}
+label{
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  margin-left: 25px;
+}
+.form-control{
+  outline: none;
+  border: 2px solid black;
+  padding: 15px 40px;
+  margin: 15px 0;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: black;
+  font-size: 18px;
+}
+.form-control::placeholder{
+  color: black;
+  font-size: 18px;
+}
+
+/* Header */
+header{
+  background-color: #5798b0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 100%;
+  padding: 20px 30px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul{
+    display: flex; 
+}
+nav ul li a{
+  color: white;
+  margin: 0 30px;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 20px;
+}
